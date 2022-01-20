@@ -1,0 +1,15 @@
+# --- SourceTree Generated ---
+# Default GitHub Account: Taching
+Host github.com
+	HostName github.com
+	User Taching
+	PreferredAuthentications publickey
+	IdentityFile /Users/tachingers/.ssh/Taching-GitHub
+	UseKeychain yes
+	AddKeysToAgent yes
+# Company account: Monstar-twada
+Host github.com-work
+	HostName github.com
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa_work_monstar
+# ----------------------------s
