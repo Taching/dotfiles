@@ -24,3 +24,5 @@ e.g chmod -x skhd
 | Notion        | I easily forget things, need an organizer of all things               | brew install --cask notion                                                                |
 | Spotify       | im not nerd so i listen to music while coding, please dont hurt me 🤪 | brew install --cask spotify                                                               |
 | InYourFace    | a meeting reminder, cause i dont wanna a thing 🎶                     | (no brew sorry) https://apps.apple.com/de/app/in-your-face/id1476964367?l=en&mt=12spotify |
+| fzf           |                                                                       |                                                                                           |
+| tmux          |                                                                       |                                                                                           |

@@ -126,3 +126,4 @@ mbrew='arch -arm64e /opt/homebrew/bin/brew'
 export PATH="/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 
+source ~/.bin/.local/scripts/workflow.sh
