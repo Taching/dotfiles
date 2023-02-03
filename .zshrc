@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias work="cd ~/Work"
-DEFAULT_USER=`whoami`export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
+export DEFAULT_USER=$USER
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

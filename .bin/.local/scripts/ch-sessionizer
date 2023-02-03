@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 
-languages=$(echo "javascript typescript nodejs" | tr " " "\n")
+common=$(echo "javascript typescript nodejs react express vue" | tr " " "\n")
 core_utils=$(echo "find xargs sed awk" | tr " " "\n")
-selected=$(echo -e "$languages\n$core_utils" | fzf)
+selected=$(echo -e "$common\n$core_utils" | fzf)
 
 
 # ask query
-if echo "$languages" | grep -qs $selected; then
+if echo "$common" | grep -qs $selected; then
     read -p "what do you whant to know about $selected: " query
 else
     read -p "$selected: " query
 fi
 
 # run tmux and look search in cht.sh
-if echo "$languages" | grep -qs $selected; then
+if echo "$common" | grep -qs $selected; then
     tmux neww bash -c "curl cht.sh/$selected/$(echo "$query" | tr " " "+") | less"
 else
     tmux neww bash -c "curl cht.sh/$selected~$query | less"
